@@ -53,11 +53,11 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
 
                 intent.putExtra("name", nameSrt);
-                intent.putExtra("name", moSrt);
-                intent.putExtra("name", mpSrt);
-                intent.putExtra("name", voSrt);
-                intent.putExtra("name", vpSrt);
-                intent.putExtra("name", sbSrt);
+                intent.putExtra("mo", moSrt);
+                intent.putExtra("mp", mpSrt);
+                intent.putExtra("vo", voSrt);
+                intent.putExtra("vp", vpSrt);
+                intent.putExtra("sb", sbSrt);
 
                 startActivity(intent);
             }
